@@ -10,6 +10,7 @@
 
         &__title{
             color: whitesmoke;
+            font-weight: bold;
         }
     }
 
@@ -17,9 +18,11 @@
         display: flex;
         justify-content: space-between;
         color: whitesmoke;
+        
 
         &__items{
             color:whitesmoke;
+            font-weight: bold;
         }
     }
     

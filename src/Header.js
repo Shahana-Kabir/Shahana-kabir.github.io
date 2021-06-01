@@ -13,9 +13,9 @@ const Header = () => {
                     </Link>
                 </Navbar.Brand>
 
-            <Nav className = "header__right">
+            <Nav className = "header2__right">
                 {/* <Nav.Link > */}
-                <a  className = "d-flex flex-column justify-content-center" target="blank" href = {resume2} >Resume</a>
+                <a  className = "mr-4 header2__right__items d-flex flex-column justify-content-center"  href = {resume2} >Resume</a>
                 
                 {/* <Link className="header2__right__items" to="/Resume"> 
                     Resume 
