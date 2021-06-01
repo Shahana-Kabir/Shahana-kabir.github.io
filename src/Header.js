@@ -3,7 +3,6 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
 import './header.scss';
 import { Link } from 'react-router-dom';
 import resume2 from './assets/resume.pdf';
-import './resume.scss';
 
 const Header = () => {
     return (<div>
@@ -15,12 +14,14 @@ const Header = () => {
                 </Navbar.Brand>
 
             <Nav className = "header__right">
-                <Nav.Link >
-                <Link className="header2__right__items" to="/Resume"> 
+                {/* <Nav.Link > */}
+                <a  className = "d-flex flex-column justify-content-center" target="blank" href = {resume2} >Resume</a>
+                
+                {/* <Link className="header2__right__items" to="/Resume"> 
                     Resume 
                     
-                    </Link>                   
-                </Nav.Link>
+                    </Link>                    */}
+                {/* </Nav.Link> */}
           
                 <Nav.Link >
                     <Link className="header2__right__items" to="/Projects"> 
