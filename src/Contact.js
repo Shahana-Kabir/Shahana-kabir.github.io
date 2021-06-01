@@ -9,7 +9,7 @@ import logo3 from './assets/gmail.png';
 const Contact = () => {
     return (<Container fluid className = "contact d-flex flex-column justify-content-center">
             <div className = "d-flex justify-content-center">
-                <h2 className = "mt-4 mb-4">Contact me</h2>
+                <h2 className = "contact__title mt-4 mb-4">Contact me</h2>
                 </div>
                 <Col >
                 <div className = "ml-4 mr-4 mt-4 mb-4 d-flex justify-content-between">
