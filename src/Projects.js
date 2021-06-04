@@ -79,8 +79,7 @@ const Projects = () => {
            </p>
            <div className = "d-flex justify-content-center">
            
-               <a href = "https://github.com/Shahana-Kabir/instock"> View code </a>              
-          
+               <button>Private repository</button>
            </div>
 
            <div className = "d-flex justify-content-center mt-4">
