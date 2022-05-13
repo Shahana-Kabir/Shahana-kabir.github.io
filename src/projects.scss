@@ -4,11 +4,20 @@
     &__item1{
         height:40rem;
         background-color:whitesmoke;
+        margin-top: 0;
 
     }
 
     &__image{
         width:20rem;
         height:20rem;
+    }
+
+    &__description{
+        font-weight: normal;
+
+    }
+    &__lorem {
+        margin-left: 25%;
     }
 }

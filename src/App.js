@@ -22,10 +22,11 @@ function App() {
     <Route path = '/Projects'  component = {Projects} />  
     
     <Route path = '/Resume'  component = {Resume} />
+    <Route path = '/Contact'  component = {Contact} />
   
     {/* <Route path = '/Contact'  component = {Contact} />  */}
     </Switch>
-    <Contact />
+    <Footer />
 
     </HashRouter>
   );

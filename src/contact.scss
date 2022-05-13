@@ -1,7 +1,18 @@
 .contact{
-    background-color: lightslategray;
+    background-color: lightcyan;
+    height: 40rem;
+
+    &__links {
+        margin-left: 25%;
+    }
 
     &__title{
-        color: whitesmoke;
+        color: black;
+        margin-top: 0.5rem;
+    }
+    &__titles{
+        color:black;
+        font-weight: bold;
+        font-size: 1.5rem;
     }
 }

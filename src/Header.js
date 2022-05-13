@@ -29,6 +29,12 @@ const Header = () => {
                     </Link>
                 </Nav.Link>
 
+                <Nav.Link >
+                    <Link className="header2__right__items" to="/Contact"> 
+                    Contact
+                    </Link>
+                </Nav.Link>
+
                 {/* <Nav.Link >
                 <Link className="header2__right__items" to="/Contact">
                         Contact

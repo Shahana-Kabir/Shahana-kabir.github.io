@@ -2,15 +2,17 @@
     height:10rem;
     display: flex;
     justify-content: space-between;
-    background-color:lightslategray;
+    background-color:teal;
     color: white;
 
     &__left{
         color: whitesmoke;
+        
 
         &__title{
             color: whitesmoke;
             font-weight: bold;
+            font-size: 3rem;
         }
     }
 
@@ -18,11 +20,13 @@
         display: flex;
         justify-content: space-between;
         color: whitesmoke;
+        margin-right: 1rem;
         
 
         &__items{
             color:whitesmoke;
             font-weight: bold;
+            font-size: 1.5rem;
         }
     }
     

@@ -1,15 +1,21 @@
 .hero{
     background-color:whitesmoke;
+    background-image: url('./assets/background.jpg');
+    background-repeat:repeat;
     height:50rem;
     display: flex;
     justify-content:center;
 
      &__para {
          width: 50%; 
+         font-weight: bold;
+         text-align: center;
+         margin-top: 15rem;
      }
     &__image{
         width: 15rem;
         border-radius: 1.15rem;
+        margin-left: 1rem;
 
     }
 
