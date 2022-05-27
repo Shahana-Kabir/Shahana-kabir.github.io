@@ -52,7 +52,7 @@ const Projects = () => {
            <h2 className = " pt-4 projects__item1__happy d-flex justify-content-center">
                Menu
            </h2>
-           <p >
+           <p className = "d-flex justify-content-center">
            An application with various menus and clients will have the option to choose the food types too.
  
            </p>
@@ -81,7 +81,7 @@ const Projects = () => {
            <h2 className = " pt-4 mb-4 projects__item1__happy d-flex  justify-content-center">
                Lorem Ipsum generator
            </h2>
-           <p className = "projects__lorem">
+           <p className = "d-flex justify-content-center">
            It’s an application for generating selected number of  Lorem ipsums.  
            </p>
            <div className = "d-flex justify-content-center">
@@ -111,7 +111,7 @@ const Projects = () => {
            <h2 className = "pt-4 projects__item1__instock d-flex justify-content-center">
                InStock
            </h2>
-           <p>
+           <p className = "d-flex justify-content-center">
                A warehouse and inventory managemnet app built along with 4 other developers.
            </p>
            <div className = "d-flex justify-content-center">
